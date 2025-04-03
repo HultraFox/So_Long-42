@@ -2,12 +2,12 @@
  
 ## My So_Long project for 42, this is technically a demo for a fully built game that will contain way much more content. Once finished i'll link the steam page here.
 
-In this game you play a little slime trying to escape the harsh outside world by entering a dungeon, but itwon't take long for this small slime to hear humans are in there too. Maybe going deeper in this dungeon will be less dangerous ?
+In this game you play a little slime trying to escape the harsh outside world by entering a dungeon, but it won't take long untill this little slime start hearing some humans. Maybe going deeper in this dungeon will be less dangerous ?
 
 ## Some things to note before trying to play this game:
-* This game will only work on linux;
+* This game will only work on Linux;
 * This game was made using the MacroLibX 2.0.1, it's possible that some dependencies for the MacroLibX are missing on your machine when installing the game such as libvulkan.so, installing what it's telling you to install will fix it;
-* In the bonus story-mode, dialogues are written in french.
+* In the bonus story-mode, dialogues are written in French.
 
 ## How to install the game
 * Two version of the game can be installed, the first is what the 42 project calls the "mandatory" version, the second one is the "bonus" version;
@@ -33,7 +33,7 @@ In this game you play a little slime trying to escape the harsh outside world by
 * Press buttons to open a trapdoor to finish the map;
 * The game write in the console the number of mevements made;
 
-## In story mode, you will be able to:
+## Story mode:
 * All of the stuff above;
 * Enemies can be encountered in every level;
 * In game UI;
