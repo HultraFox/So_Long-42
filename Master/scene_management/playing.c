@@ -14,9 +14,6 @@
 
 void	playing(t_mlx *mlx, int frame)
 {
-	int		i;
-
-	i = 0;
 	mlx_clear_window(mlx->mlx, mlx->win, (mlx_color){.rgba = 0x000000FF});
 	print_map(mlx);
 	print_obj(mlx);

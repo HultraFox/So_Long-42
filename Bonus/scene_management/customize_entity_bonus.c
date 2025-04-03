@@ -60,9 +60,6 @@ void	set_entities_2(t_mlx *mlx)
 
 void	remove_entity(t_mlx *mlx)
 {
-	int	i;
-
-	i = 0;
 	mlx->map[mlx->custom.pos[0]][mlx->custom.pos[1]] = '0';
 	if (mlx->sp_char[3] + 1 > 0)
 	{

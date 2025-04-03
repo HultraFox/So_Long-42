@@ -57,13 +57,11 @@ void	set_config(t_config *config)
 
 void	moddify_config(t_config *config)
 {
-	int		i;
 	int		o;
 	char	*tmp;
 
 	if (config->file_exist == 0)
 		return ;
-	i = 0;
 	o = open("options.conf", O_CREAT | O_RDWR);
 	if (o == -1)
 		config->file_exist = 0;

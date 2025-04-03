@@ -20,13 +20,11 @@ char	**ft_split(char const *s, char c)
 {
 	char	**dest;
 	int		nbw;
-	int		i;
 
-	i = 0;
 	if (!s)
 		return (NULL);
 	nbw = count_words(s, c);
-	if (!&check_c)
+	if (!check_c((char *)s, c))
 		nbw = 1;
 	dest = malloc((nbw + 1) * sizeof(char *));
 	if (!dest)

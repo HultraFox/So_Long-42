@@ -34,10 +34,8 @@ void	set_maptxt_cust(t_mlx *mlx)
 
 void	save_map_cust(t_mlx *mlx, char *s)
 {
-	int		i;
 	int		o;
 
-	i = 0;
 	o = open(mlx->map_file, O_CREAT | O_RDWR);
 	if (o == -1)
 		mlx->map_file = 0;

@@ -14,9 +14,6 @@
 
 void	scene_load_map(t_mlx *mlx, char *s)
 {
-	int	i;
-
-	i = 0;
 	check_map(mlx, s);
 	set_map(mlx);
 	mlx->player.pos[0] *= 32;

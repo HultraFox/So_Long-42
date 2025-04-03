@@ -61,9 +61,6 @@ void	set_cols_2(t_mlx *mlx)
 
 void	remove_col(t_mlx *mlx)
 {
-	int	i;
-
-	i = 0;
 	mlx->map[mlx->custom.pos[0]][mlx->custom.pos[1]] = '0';
 	if (mlx->sp_char[2] + 1 > 0)
 	{

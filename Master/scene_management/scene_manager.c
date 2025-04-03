@@ -14,9 +14,6 @@
 
 void	start_scene(t_mlx *mlx, char *s)
 {
-	int	i;
-
-	i = 0;
 	mlx->step = 0;
 	mlx->maps_malloc = 0;
 	mlx->col_state = NULL;
